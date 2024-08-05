@@ -2,6 +2,8 @@
 
 这是一个简单的Twitter历史数据爬虫工具。它借助Web Archive上关于Twitter的历史网页快照，可以帮助您获取特定时间段内的Twitter推文。
 
+基于Gitee项目：https://gitee.com/wojiaoyishang/get-tweets 开发，使用Playwright和Python。
+
 本工具依照2016年的Twitter网页HTML结构遍历网页快照，寻找特定时间段内的推文并截取内容，可能不适用于其他时间段的网页快照。
 
 ## 使用步骤
